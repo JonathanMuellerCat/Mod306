@@ -107,6 +107,25 @@
 
 ### Analisi e specifica dei requisiti
 
+L’applicativo può essere scritto in Java o JS.
+o Se Java è richiesta la creazione di un piccolo sito adibito alla descrizione e
+download dell’applicativo, con descrizione di tutti i requisiti per il
+funzionamento.
+o Se JS è richiesta la creazione di un piccolo sito per il suo hosting.
+- I punti di “taglio” sono da inserire con il mouse con semplici click.
+- L’inserimento del percorso deve avere queste funzioni: aggiunta di punti, reset totale.
+o Bonus: rimozione, spostamento di punti
+- Il “fiocco di neve” finale va generato su input dell’utente con un tasto “Genera”
+o Bonus: la generazione avviene in tempo reale
+- L’applicativo deve permettere di salvare il fiocco di neve generato come immagine
+raster (con dimensioni a scelta dell’utente) e vettoriale. L’uso dei formati PNG e SVG
+saranno preferiti ad altri (e valutati di conseguenza).
+- L’applicativo deve permettere di salvare i punti di taglio per poter permettere modifiche
+o rigenerazione future.
+- In base al tempo a disposizione, nuovi requisiti possono essere inseriti nel progetto
+dopo discussione fra formatore e allievo.
+
+
   -   Quali sono i bisogni del committente?
 
   -   Quali funzioni deve svolgere il prodotto?
