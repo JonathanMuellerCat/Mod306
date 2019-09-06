@@ -7,8 +7,6 @@
   - [Scopo](#scopo)
 
 2. [Analisi](#analisi)
-
-  - [Analisi del dominio](#analisi-del-dominio)
   
   - [Analisi dei mezzi](#analisi-dei-mezzi)
 
@@ -124,25 +122,6 @@ saranno preferiti ad altri (e valutati di conseguenza).
   - rigenerazione future.
 - In base al tempo a disposizione, nuovi requisiti possono essere inseriti nel progetto
 dopo discussione fra formatore e allievo.
-
-
-  -   Quali sono i bisogni del committente?
-
-  -   Quali funzioni deve svolgere il prodotto?
-
-  -   Come devono essere implementate?
-
-  -   L’utente, come vorrebbe/dovrebbe interagire con il prodotto?
-
-  -   Come verrà utilizzato il prodotto?
-
-  -   Che tipo di interfaccia si immagina?
-
-  -   Che prestazioni minime deve fornire il prodotto?
-
-  -   Che grado di sicurezza deve avere il prodotto?
-
-  -   …
 
   In base alla lista dei requisiti e all’analisi degli stessi, il
   progettista redige una *specifica dei requisiti* in cui elenca e
