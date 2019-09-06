@@ -1,5 +1,7 @@
 # Mod306
 Generatore di fiocchi di neve
 
-## Modelli
+## Documentazione
 - [Documentazione](Documentazione.md)
+
+## Diari
