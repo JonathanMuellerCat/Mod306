@@ -7,14 +7,18 @@
   - [Scopo](#scopo)
 
 2. [Analisi](#analisi)
-  
-  - [Analisi dei mezzi](#analisi-dei-mezzi)
 
   - [Analisi e specifica dei requisiti](#analisi-e-specifica-dei-requisiti)
 
   - [Use case](#use-case)
 
   - [Pianificazione](#pianificazione)
+  
+  - [Analisi dei mezzi](#analisi-dei-mezzi)
+  
+   - [Hardware](#hardware)
+  
+   - [Software](#software)
 
 3. [Progettazione](#progettazione)
 
