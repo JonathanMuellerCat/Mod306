@@ -109,8 +109,7 @@
 ### Analisi e specifica dei requisiti
 
 - L’applicativo può essere sia Java che in Javascript.
-  - Se l'applicazione è Java, va creato un sito web con la descrizione e il download dell’applicazione, con descrizione di tutti i requisiti per il
-funzionamento.
+  - Se l'applicazione è Java, va creato un sito web con la descrizione e il download dell’applicazione, con descrizione di tutti i requisiti per il funzionamento.
   - Se l'applicazione è in Javascript va creato un sito web per il suo hosting.
 - I punti di “taglio” vengono inseriti cliccando col mouse.
 - I punti si devono poter aggiungere e resettare completamente.
@@ -134,13 +133,22 @@ dopo discussione fra formatore e allievo.
   rappresentano delle attività bensì delle caratteristiche che il prodotto
   dovrà possedere.
 
-
-
-
-  |**ID**	|**Nome**			|**Priorità**|**Vers**|**Note**  |**Sotto requisiti**  |
-  |----|------------|--------|----|------|----------------|
-  |Req-1|Applicativo in Java o Javascript|1|1.0|...|
+  |**ID**           |Req-1                                                                          |
+  |-----------------|-------------------------------------------------------------------------------|
+  |**Nome**         |Applicativo in Java o Javascript                                               |
+  |**Priorità**     |1                                                                              |
+  |**Versione**     |1.0                                                                            |
+  |**Note**         |                                                                               |
+  |                 |Sotto requisiti                                                                |
+  |001              | Se l'applicativo è in Java, necessita un sito web con descrizione e download  |
+  |002              | Se l'applicativo è in Javascript, necessita un sito web per il suo hosting    |
+  
+  |**ID**	|**Nome**			|**Priorità**|**Vers**|**Note**  |
+  |----|------------|--------|----|------|
   |Req-2|Si dovranno poter immettere nuovi allievi|1|1.0|...|
+  
+  |**ID**	|**Nome**			|**Priorità**|**Vers**|**Note**  |
+  |----|------------|--------|----|------|
   |Req-3|Dovrà essere possibile la ricerca di allievi|1|1.0|...|
   
   
@@ -173,8 +181,7 @@ requisiti.
 
 ### Use case
 
-I casi d’uso rappresentano l’interazione tra i vari attori e le
-funzionalità del prodotto.
+È presente solo un'attore che interagisce direttamente con l'applicazione.
 
 ### Pianificazione
 
