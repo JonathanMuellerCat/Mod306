@@ -139,7 +139,7 @@ dopo discussione fra formatore e allievo.
   |**Priorità**     |1                                                                              |
   |**Versione**     |1.0                                                                            |
   |**Note**         |                                                                               |
-  |>|Sotto requisiti                                                                |
+  |Sotto requisiti                                                                                 ||
   |001              | Se l'applicativo è in Java, necessita un sito web con descrizione e download  |
   |002              | Se l'applicativo è in Javascript, necessita un sito web per il suo hosting    |
   
