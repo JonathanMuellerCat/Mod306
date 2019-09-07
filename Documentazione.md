@@ -133,15 +133,15 @@ dopo discussione fra formatore e allievo.
   rappresentano delle attività bensì delle caratteristiche che il prodotto
   dovrà possedere.
 
-  |**ID**           |Req-1                                                                          |
-  |-----------------|-------------------------------------------------------------------------------|
-  |**Nome**         |Applicativo in Java o Javascript                                               |
-  |**Priorità**     |1                                                                              |
-  |**Versione**     |1.0                                                                            |
-  |**Note**         |                                                                               |
-  |<td colspan=2>**Sotto requisiti**                                                               ||
-  |001              | Se l'applicativo è in Java, necessita un sito web con descrizione e download  |
-  |002              | Se l'applicativo è in Javascript, necessita un sito web per il suo hosting    |
+  |**ID**            <td>Req-1                                                                          |
+  |-----------------------------------------------------------------------------------------------------|
+  |**Nome**          <td>Applicativo in Java o Javascript                                               |
+  |**Priorità**      <td>1                                                                              |
+  |**Versione**      <td>1.0                                                                            |
+  |**Note**          <td>                                                                               |
+  |                  **Sotto requisiti**                                                                |
+  |001               <td> Se l'applicativo è in Java, necessita un sito web con descrizione e download  |
+  |002               <td> Se l'applicativo è in Javascript, necessita un sito web per il suo hosting    |
   
   |**ID**	|**Nome**			|**Priorità**|**Vers**|**Note**  |
   |----|------------|--------|----|------|
