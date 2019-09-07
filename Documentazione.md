@@ -49,11 +49,15 @@
 
 ### Informazioni sul progetto
 
-  SAMT I3AC
-  Modulo 306
+  Scuola e classe: SAMT I3AC
+  
+  Modulo: 306
+  
   Alievo: Jonathan Mueller
+  
   Docenti: Luca Muggiasca e Geo Peduzzi
-  6.9.2019 - 20.12.2019
+  
+  Durata progetto: 6.9.2019 - 20.12.2019
 
 ### Abstract
 
@@ -96,19 +100,18 @@
 
 ### Scopo
 
-  Lo scopo del progetto (scopi didattici/scopi operativi). Dovrebbe
-  descrivere il mandato, ma non vanno ricopiate le informazioni del
-  quaderno dei compiti (che va invece allegato).
+  Lo scopo dei questo progetto è di imparare a gestire progetti a partire da una consegna di un cliente seguendo i modelli imparati in classe (cascata), a documentaro  e a fare i diari settimanali.
+  Durante la creazione del progetto ci saranno utili molte nozioni imarate da moduli degli anni passati, come 431, 307, 226 e il corrente 306. Questo progetto ci aiuterà anche ad allenarci per fare progetti futuri come il progetto finale in quarta e quelli che svolgeremo sul posto di lavoro.
 
 
 ## Analisi
 
 ### Analisi e specifica dei requisiti
 
-- L’applicativo può essere sia Java che in javascript.
+- L’applicativo può essere sia Java che in Javascript.
   - Se l'applicazione è Java, va creato un sito web con la descrizione e il download dell’applicazione, con descrizione di tutti i requisiti per il
 funzionamento.
-  - Se l'applicazione è in javascript va creato un sito web per il suo hosting.
+  - Se l'applicazione è in Javascript va creato un sito web per il suo hosting.
 - I punti di “taglio” vengono inseriti cliccando col mouse.
 - I punti si devono poter aggiungere e resettare completamente.
   - Bonus: rimozione, spostamento di punti
@@ -134,11 +137,11 @@ dopo discussione fra formatore e allievo.
 
 
 
-  |**ID**	|**Nome**			|**Priorità**|**Vers**|**Note**  |
-  |----|------------|--------|----|------|
-  |Req-12|Dovrà esserci una maschera di login|1|1.0|...|
-  |Req-13|Si dovranno poter immettere nuovi allievi|1|1.0|...|
-  |Req-14|Dovrà essere possibile la ricerca di allievi|1|1.0|...|
+  |**ID**	|**Nome**			|**Priorità**|**Vers**|**Note**  |**Sotto requisiti**  |
+  |----|------------|--------|----|------|----------------|
+  |Req-1|Applicativo in Java o Javascript|1|1.0|...|
+  |Req-2|Si dovranno poter immettere nuovi allievi|1|1.0|...|
+  |Req-3|Dovrà essere possibile la ricerca di allievi|1|1.0|...|
   
   
 
