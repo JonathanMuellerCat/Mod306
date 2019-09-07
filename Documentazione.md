@@ -133,21 +133,21 @@ dopo discussione fra formatore e allievo.
   rappresentano delle attività bensì delle caratteristiche che il prodotto
   dovrà possedere.
 
-  |**ID**            <td>Req-1                                                                          |
-  |-----------------------------------------------------------------------------------------------------|
-  |**Nome**          <td>Applicativo in Java o Javascript                                               |
-  |**Priorità**      <td>1                                                                              |
-  |**Versione**      <td>1.0                                                                            |
-  |**Note**          <td>                                                                               |
-  |<td colspan="2">**Sotto requisiti**</td>                                                                |
-  |001               <td> Se l'applicativo è in Java, necessita un sito web con descrizione e download  |
-  |002               <td> Se l'applicativo è in Javascript, necessita un sito web per il suo hosting    |
+  |**ID**            |Req-1                                                                          |
+  |------------------|-------------------------------------------------------------------------------|
+  |**Nome**          |Applicativo in Java o Javascript                                               |
+  |**Priorità**      |1                                                                              |
+  |**Versione**      |1.0                                                                            |
+  |**Note**          |                                                                               |
+  |                  |**Sotto requisiti**                                                            |
+  |001               | Se l'applicativo è in Java, necessita un sito web con descrizione e download  |
+  |002               | Se l'applicativo è in Javascript, necessita un sito web per il suo hosting    |
   
-  |**ID**	|**Nome**			|**Priorità**|**Vers**|**Note**  |
+  |**ID**|**Nome**|**Priorità**|**Vers**|**Note**|
   |----|------------|--------|----|------|
   |Req-2|Si dovranno poter immettere nuovi allievi|1|1.0|...|
   
-  |**ID**	|**Nome**			|**Priorità**|**Vers**|**Note**  |
+  |**ID**|**Nome**|**Priorità**|**Vers**|**Note**|
   |----|------------|--------|----|------|
   |Req-3|Dovrà essere possibile la ricerca di allievi|1|1.0|...|
   
