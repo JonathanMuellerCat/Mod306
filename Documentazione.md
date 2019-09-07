@@ -58,6 +58,7 @@
   Docenti: Luca Muggiasca e Geo Peduzzi
   
   Durata progetto: 6.9.2019 - 20.12.2019
+  
 
 ### Abstract
 
@@ -173,9 +174,11 @@ dopo discussione fra formatore e allievo.
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
 
+
 ### Use case
 
 È presente solo un'attore che interagisce direttamente con l'applicazione.
+
 
 ### Pianificazione
 
@@ -192,16 +195,24 @@ Gantt.
 Se si usano altri metodi di pianificazione (es scrum), dovranno apparire
 in questo capitolo.
 
+
 ### Analisi dei mezzi
 
-####Hardware####
+#### Hardware ####
+
 PC messo a disposizione dalla scuola con Windows
+
 Portatile MacBook Pro personale
 
-####Software####
+
+#### Software ####
+
 Pacchetto WAMP (Apache, MySQL, PHP, ecc...)
+
 Java (JDK 11.1)
+
 GitHub
+
 
 ## Progettazione
 
