@@ -139,7 +139,7 @@ dopo discussione fra formatore e allievo.
   |**Priorità**      <td>1                                                                              |
   |**Versione**      <td>1.0                                                                            |
   |**Note**          <td>                                                                               |
-  |                  **Sotto requisiti**                                                                |
+  |<td colspan="2">**Sotto requisiti**</td>                                                                |
   |001               <td> Se l'applicativo è in Java, necessita un sito web con descrizione e download  |
   |002               <td> Se l'applicativo è in Javascript, necessita un sito web per il suo hosting    |
   
