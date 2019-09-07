@@ -122,62 +122,56 @@
 - In base al tempo a disposizione, nuovi requisiti possono essere inseriti nel progetto
 dopo discussione fra formatore e allievo.
 
-  In base alla lista dei requisiti e all’analisi degli stessi, il
-  progettista redige una *specifica dei requisiti* in cui elenca e
-  descrive in modo dettagliato quali sono le funzionalità che il prodotto
-  fornirà. La specifica dovrebbe essere abbastanza dettagliata da poter
-  essere utilizzata come base per lo sviluppo, ma non troppo; ad esempio
-  non dovrebbe contenere dettagli di implementazione, o definizioni
-  dettagliate dell’interfaccia grafica a meno che questi non siano
-  considerati cruciali. Non si deve scordare che i requisiti non
-  rappresentano delle attività bensì delle caratteristiche che il prodotto
-  dovrà possedere.
 
   |**ID**            |Req-1                                                                          |
   |------------------|-------------------------------------------------------------------------------|
-  |**Nome**          |Applicativo in Java o Javascript                                               |
+  |**Nome**          |Creare l'applicativo in Java o Javascript                                      |
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
   |                  |**Sotto requisiti**                                                            |
-  |001               | Se l'applicativo è in Java, necessita un sito web con descrizione e download  |
-  |002               | Se l'applicativo è in Javascript, necessita un sito web per il suo hosting    |
+  |001               |Se l'applicativo è in Java, necessita un sito web con descrizione e download   |
+  |002               |Se l'applicativo è in Javascript, necessita un sito web per il suo hosting     |
   
-  |**ID**|**Nome**|**Priorità**|**Vers**|**Note**|
-  |----|------------|--------|----|------|
-  |Req-2|Si dovranno poter immettere nuovi allievi|1|1.0|...|
+  |**ID**            |Req-2                                                                          |
+  |------------------|-------------------------------------------------------------------------------|
+  |**Nome**          |I punti di taglio si posizionano con il click del mouse                        |
+  |**Priorità**      |1                                                                              |
+  |**Versione**      |1.0                                                                            |
+  |**Note**          |                                                                               |
   
-  |**ID**|**Nome**|**Priorità**|**Vers**|**Note**|
-  |----|------------|--------|----|------|
-  |Req-3|Dovrà essere possibile la ricerca di allievi|1|1.0|...|
+  |**ID**            |Req-3                                                                          |
+  |------------------|-------------------------------------------------------------------------------|
+  |**Nome**          |I punti di taglio si possono aggiungere e resettare                            |
+  |**Priorità**      |1                                                                              |
+  |**Versione**      |1.0                                                                            |
+  |**Note**          |                                                                               |
+  |                  |**Sotto requisiti**                                                            |
+  |001               |I punti di taglio si possono eliminare                                         |
+  |002               |I punti di taglio si possono spostare                                          |
   
+  |**ID**            |Req-4                                                                          |
+  |------------------|-------------------------------------------------------------------------------|
+  |**Nome**          |Il fiocco di neve viene generato al click del pulsante "Genera"                |
+  |**Priorità**      |1                                                                              |
+  |**Versione**      |1.0                                                                            |
+  |**Note**          |                                                                               |
+  |                  |**Sotto requisiti**                                                            |
+  |001               |Viene generato in tempo reale                                                  |
   
-
-
-
-**Spiegazione elementi tabella dei requisiti:**
-
-**ID**: identificativo univoco del requisito
-
-**Nome**: breve descrizione del requisito
-
-**Priorità**: indica l’importanza di un requisito nell’insieme del
-progetto, definita assieme al committente. Ad esempio poter disporre di
-report con colonne di colori diversi ha priorità minore rispetto al
-fatto di avere un database con gli elementi al suo interno. Solitamente
-si definiscono al massimo di 2-3 livelli di priorità.
-
-**Versione**: indica la versione del requisito. Ogni modifica del
-requisito avrà una versione aggiornata.
-
-Sulla documentazione apparirà solamente l’ultima versione, mentre le
-vecchie dovranno essere inserite nei diari.
-
-**Note**: eventuali osservazioni importanti o riferimenti ad altri
-requisiti.
-
-**Sotto requisiti**: elementi che compongono il requisito.
-
+  |**ID**            |Req-5                                                                          |
+  |------------------|-------------------------------------------------------------------------------|
+  |**Nome**          |Si può salvare il fiocco di neve come immagine BMP o SVG                       |
+  |**Priorità**      |2                                                                              |
+  |**Versione**      |1.0                                                                            |
+  |**Note**          |                                                                               |
+  
+  |**ID**            |Req-6                                                                          |
+  |------------------|-------------------------------------------------------------------------------|
+  |**Nome**          |Si possono salvare i punti di taglio per modifiche future                      |
+  |**Priorità**      |2                                                                              |
+  |**Versione**      |1.0                                                                            |
+  |**Note**          |                                                                               |
 
 ### Use case
 
@@ -200,16 +194,14 @@ in questo capitolo.
 
 ### Analisi dei mezzi
 
-Elencare e *descrivere* i mezzi disponibili per la realizzazione del
-progetto. Ricordarsi di sempre descrivere nel dettaglio le versioni e il
-modello di riferimento.
+####Hardware####
+PC messo a disposizione dalla scuola con Windows
+Portatile MacBook Pro personale
 
-SDK, librerie, tools utilizzati per la realizzazione del progetto e
-eventuali dipendenze.
-
-Su quale piattaforma dovrà essere eseguito il prodotto? Che hardware
-particolare è coinvolto nel progetto? Che particolarità e limitazioni
-presenta? Che hw sarà disponibile durante lo sviluppo?
+####Software####
+Pacchetto WAMP (Apache, MySQL, PHP, ecc...)
+Java (JDK 11.1)
+GitHub
 
 ## Progettazione
 
