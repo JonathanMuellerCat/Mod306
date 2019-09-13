@@ -145,61 +145,96 @@ dopo discussione fra formatore e allievo.
   
   |**ID**            |Req-2                                                                          |
   |------------------|-------------------------------------------------------------------------------|
-  |**Nome**          |I punti di taglio si posizionano con il click del mouse                        |
+  |**Nome**          |Deve esserci un'interfaccia grafica                                            |
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
   
   |**ID**            |Req-3                                                                          |
   |------------------|-------------------------------------------------------------------------------|
-  |**Nome**          |I punti di taglio si possono aggiungere                                        |
+  |**Nome**          |L'area di lavoro deve essere un triangolo                                      |
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
   
   |**ID**            |Req-4                                                                          |
   |------------------|-------------------------------------------------------------------------------|
-  |**Nome**          |I punti di taglio si possono resettare                                         |
+  |**Nome**          |I punti di taglio si posizionano con il click del mouse                        |
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
   
   |**ID**            |Req-5                                                                          |
   |------------------|-------------------------------------------------------------------------------|
+  |**Nome**          |I punti di taglio si possono aggiungere                                        |
+  |**Priorità**      |1                                                                              |
+  |**Versione**      |1.0                                                                            |
+  |**Note**          |                                                                               |
+  
+  |**ID**            |Req-6                                                                          |
+  |------------------|-------------------------------------------------------------------------------|
+  |**Nome**          |I punti di taglio si possono resettare                                         |
+  |**Priorità**      |1                                                                              |
+  |**Versione**      |1.0                                                                            |
+  |**Note**          |                                                                               |
+  
+  |**ID**            |Req-7                                                                          |
+  |------------------|-------------------------------------------------------------------------------|
   |**Nome**          |I punti di taglio si possono eliminare                                         |
   |**Priorità**      |2                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
   
-  |**ID**            |Req-6                                                                          |
+  |**ID**            |Req-8                                                                          |
   |------------------|-------------------------------------------------------------------------------|
   |**Nome**          |I punti di taglio si possono spostare                                          |
   |**Priorità**      |2                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
   
-  |**ID**            |Req-7                                                                          |
+  |**ID**            |Req-9                                                                          |
+  |------------------|-------------------------------------------------------------------------------|
+  |**Nome**          |Deve esserci un tasto "Genera"                                                 |
+  |**Priorità**      |1                                                                              |
+  |**Versione**      |1.0                                                                            |
+  |**Note**          |                                                                               |
+  
+  |**ID**            |Req-10                                                                         |
   |------------------|-------------------------------------------------------------------------------|
   |**Nome**          |Il fiocco di neve viene generato al click del pulsante "Genera"                |
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
   
-  |**ID**            |Req-8                                                                          |
+  |**ID**            |Req-11                                                                         |
   |------------------|-------------------------------------------------------------------------------|
   |**Nome**          |Il fiocco di neve viene generato in tempo reale                                |
   |**Priorità**      |2                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
   
-  |**ID**            |Req-9                                                                          |
+  |**ID**            |Req-12                                                                         |
   |------------------|-------------------------------------------------------------------------------|
-  |**Nome**          |Si può salvare il fiocco di neve come immagine BMP o SVG                       |
-  |**Priorità**      |2                                                                              |
+  |**Nome**          |Si può salvare il fiocco                                                       |
+  |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
   
-  |**ID**            |Req-10                                                                          |
+  |**ID**            |Req-13                                                                         |
+  |------------------|-------------------------------------------------------------------------------|
+  |**Nome**          |Il salvataggio può essere fatto  come immagine BMP o SVG                       |
+  |**Priorità**      |1                                                                              |
+  |**Versione**      |1.0                                                                            |
+  |**Note**          |                                                                               |
+  
+  |**ID**            |Req-14                                                                         |
+  |------------------|-------------------------------------------------------------------------------|
+  |**Nome**          |Il salvataggio deve avere dimenzioni scelte dall'utente                        |
+  |**Priorità**      |1                                                                              |
+  |**Versione**      |1.0                                                                            |
+  |**Note**          |                                                                               |
+  
+  |**ID**            |Req-15                                                                         |
   |------------------|-------------------------------------------------------------------------------|
   |**Nome**          |Si possono salvare i punti di taglio per modifiche future                      |
   |**Priorità**      |2                                                                              |
