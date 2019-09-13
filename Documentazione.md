@@ -135,7 +135,7 @@ dopo discussione fra formatore e allievo.
 
   |**ID**            |Req-1                                                                          |
   |------------------|-------------------------------------------------------------------------------|
-  |**Nome**          |L'applicativo deve essere in Java o in Javascript                              |
+  |**Nome**          |L'applicativo deve essere in Java o in Javascript<img width=10000/>            |
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |Nel sito web evitare colori fastidiosi e utilizzare colori comprensibili a i daltonici |
