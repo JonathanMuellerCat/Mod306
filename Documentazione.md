@@ -138,10 +138,10 @@ dopo discussione fra formatore e allievo.
   |**Nome**          |L'applicativo deve essere in Java o in Javascript                              |
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
-  |**Note**          |                                                                               |
+  |**Note**          |Nel sito web evitare colori fastidiosi e utilizzare colori comprensibili a i daltonici |
   |                  |**Sotto requisiti**                                                            |
-  |001               |Se l'applicativo è in Java necessita un sito web con descrizione con screenshots, download, versione JRE e lista con requisiti di sistema |
-  |002               |Se l'applicativo è in Javascript, necessita un sito web per il suo hosting     |
+  |001               |Se l'applicativo è in Java necessita un sito web con descrizione con screenshots, download del file JAR, versione JRE e lista con requisiti di sistema |
+  |002               |Se l'applicativo è in Javascript, necessita un sito web per il suo hosting con browser supportati (Explorer 11, Firefox 6, Chrome 76) e la dimensione minima |
   
   |**ID**            |Req-2                                                                          |
   |------------------|-------------------------------------------------------------------------------|
@@ -155,14 +155,14 @@ dopo discussione fra formatore e allievo.
   |**Nome**          |L'area di lavoro deve essere un triangolo                                      |
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
-  |**Note**          |                                                                               |
+  |**Note**          |Il triangolo è sempre il 50% della finestra e centrato                         |
   
   |**ID**            |Req-4                                                                          |
   |------------------|-------------------------------------------------------------------------------|
   |**Nome**          |I punti di taglio si posizionano con il click del mouse                        |
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
-  |**Note**          |                                                                               |
+  |**Note**          |Per commutare tra posizionamento e altre funzione si possono usare pulsanti    |
   
   |**ID**            |Req-5                                                                          |
   |------------------|-------------------------------------------------------------------------------|
@@ -211,7 +211,7 @@ dopo discussione fra formatore e allievo.
   |**Nome**          |Il fiocco di neve viene generato in tempo reale                                |
   |**Priorità**      |2                                                                              |
   |**Versione**      |1.0                                                                            |
-  |**Note**          |                                                                               |
+  |**Note**          |Ogni volta che aggiungo un punto mostra già il risultato finale                |
   
   |**ID**            |Req-12                                                                         |
   |------------------|-------------------------------------------------------------------------------|
@@ -222,14 +222,14 @@ dopo discussione fra formatore e allievo.
   
   |**ID**            |Req-13                                                                         |
   |------------------|-------------------------------------------------------------------------------|
-  |**Nome**          |Il salvataggio può essere fatto  come immagine BMP o SVG                       |
+  |**Nome**          |Il salvataggio può essere fatto come immagine BMP o SVG a scelta               |
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
   
   |**ID**            |Req-14                                                                         |
   |------------------|-------------------------------------------------------------------------------|
-  |**Nome**          |Il salvataggio deve avere dimenzioni scelte dall'utente                        |
+  |**Nome**          |Il salvataggio deve avere dimenzioni scelte dall'utente (500px o 1000px)       |
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
@@ -239,7 +239,17 @@ dopo discussione fra formatore e allievo.
   |**Nome**          |Si possono salvare i punti di taglio per modifiche future                      |
   |**Priorità**      |2                                                                              |
   |**Versione**      |1.0                                                                            |
+  |**Note**          |Si possono usare file o database a scelta                                      |
+  
+  |**ID**            |Req-16                                                                         |
+  |------------------|-------------------------------------------------------------------------------|
+  |**Nome**          |Si possono caricare i punti di taglio salvati in precedenza                    |
+  |**Priorità**      |2                                                                              |
+  |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
+  |                  |**Sotto requisiti**                                                            |
+  |001               |Se si usano file con un file explorer o una pagina che mostra direttamente tutti i file |
+  |002               |Se si usa un database una pagina che mostra direttamente tutti i file          |
 
 
 ### Use case
