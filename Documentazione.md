@@ -140,15 +140,7 @@ dopo discussione fra formatore e allievo.
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
   |                  |**Sotto requisiti**                                                            |
-  |001               |Se l'applicativo è in Java necessita un sito web con
-  
-descrizione con screenshots
-
-download
-
-versione JRE
-
-lista con requisiti di sistema |  
+  |001               |Se l'applicativo è in Java necessita un sito web con descrizione con screenshots, download, versione JRE e lista con requisiti di sistema |
   |002               |Se l'applicativo è in Javascript, necessita un sito web per il suo hosting     |
   
   |**ID**            |Req-2                                                                          |
