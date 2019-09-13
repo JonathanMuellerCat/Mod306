@@ -111,6 +111,11 @@
 
 ## Analisi
 
+### Analisi del dominio
+
+Questo prodotto è originale, e non esietevano prodotti simili prima. Non occorrono competenze per far funzionare il programma i quanto il metodo di utilizzo è descritto sulla pagina web del prodotto.
+
+
 ### Analisi e specifica dei requisiti
 
 - L’applicativo può essere sia Java che in Javascript.
@@ -130,7 +135,7 @@ dopo discussione fra formatore e allievo.
 
   |**ID**            |Req-1                                                                          |
   |------------------|-------------------------------------------------------------------------------|
-  |**Nome**          |Creare l'applicativo in Java o Javascript                                      |
+  |**Nome**          |L'applicativo deve essere in Java o in Javascript                              |
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
@@ -147,31 +152,54 @@ dopo discussione fra formatore e allievo.
   
   |**ID**            |Req-3                                                                          |
   |------------------|-------------------------------------------------------------------------------|
-  |**Nome**          |I punti di taglio si possono aggiungere e resettare                            |
+  |**Nome**          |I punti di taglio si possono aggiungere                                        |
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
-  |                  |**Sotto requisiti**                                                            |
-  |001               |I punti di taglio si possono eliminare                                         |
-  |002               |I punti di taglio si possono spostare                                          |
   
   |**ID**            |Req-4                                                                          |
+  |------------------|-------------------------------------------------------------------------------|
+  |**Nome**          |I punti di taglio si possono resettare                                         |
+  |**Priorità**      |1                                                                              |
+  |**Versione**      |1.0                                                                            |
+  |**Note**          |                                                                               |
+  
+  |**ID**            |Req-5                                                                          |
+  |------------------|-------------------------------------------------------------------------------|
+  |**Nome**          |I punti di taglio si possono eliminare                                         |
+  |**Priorità**      |2                                                                              |
+  |**Versione**      |1.0                                                                            |
+  |**Note**          |                                                                               |
+  
+  |**ID**            |Req-6                                                                          |
+  |------------------|-------------------------------------------------------------------------------|
+  |**Nome**          |I punti di taglio si possono spostare                                          |
+  |**Priorità**      |2                                                                              |
+  |**Versione**      |1.0                                                                            |
+  |**Note**          |                                                                               |
+  
+  |**ID**            |Req-7                                                                          |
   |------------------|-------------------------------------------------------------------------------|
   |**Nome**          |Il fiocco di neve viene generato al click del pulsante "Genera"                |
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
-  |                  |**Sotto requisiti**                                                            |
-  |001               |Viene generato in tempo reale                                                  |
   
-  |**ID**            |Req-5                                                                          |
+  |**ID**            |Req-8                                                                          |
+  |------------------|-------------------------------------------------------------------------------|
+  |**Nome**          |Il fiocco di neve viene generato in tempo reale                                |
+  |**Priorità**      |2                                                                              |
+  |**Versione**      |1.0                                                                            |
+  |**Note**          |                                                                               |
+  
+  |**ID**            |Req-9                                                                          |
   |------------------|-------------------------------------------------------------------------------|
   |**Nome**          |Si può salvare il fiocco di neve come immagine BMP o SVG                       |
   |**Priorità**      |2                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
   
-  |**ID**            |Req-6                                                                          |
+  |**ID**            |Req-10                                                                          |
   |------------------|-------------------------------------------------------------------------------|
   |**Nome**          |Si possono salvare i punti di taglio per modifiche future                      |
   |**Priorità**      |2                                                                              |
