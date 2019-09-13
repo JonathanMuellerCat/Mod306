@@ -243,6 +243,7 @@ dopo discussione fra formatore e allievo.
 
 #### Domande
 
+Priorità del sito nel progetto?
 Le dimensioni di salvataggio si applicano solo su raster o anche su vettoriale?
 Ci sono dimesioni massime e minime di salvataggio?
 In che tipo di file vengono salvati i punti di taglio?
@@ -257,6 +258,7 @@ Il triangolo deve essere sempre centrato?
 Deve esistere una barra di menu?
 Prima del salvataggio posso scegliere la cartella di destinazione?
 Deve esserci un file di configurazione? Cosa contiene?
+
 
 ### Use case
 
