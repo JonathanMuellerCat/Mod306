@@ -145,105 +145,107 @@ dopo discussione fra formatore e allievo.
   
   |**ID**            |Req-2                                                                          |
   |------------------|-------------------------------------------------------------------------------|
-  |**Nome**          |Deve esserci un'interfaccia grafica<img width=4000/>                            |
+  |**Nome**          |Deve esserci un'interfaccia grafica<img width=10000/>                          |
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |Può essere ridimensionata (min 1024x768)                                       |
   
   |**ID**            |Req-3                                                                          |
   |------------------|-------------------------------------------------------------------------------|
-  |**Nome**          |L'area di lavoro deve essere un triangolo                                      |
+  |**Nome**          |L'area di lavoro deve essere un triangolo<img width=10000/>                    |
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |Il triangolo è sempre il 50% della finestra e centrato                         |
   
   |**ID**            |Req-4                                                                          |
   |------------------|-------------------------------------------------------------------------------|
-  |**Nome**          |I punti di taglio si posizionano con il click del mouse                        |
+  |**Nome**          |I punti di taglio si posizionano con il click del mouse<img width=10000/>      |
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |Per commutare tra posizionamento e altre funzione si possono usare pulsanti    |
   
   |**ID**            |Req-5                                                                          |
   |------------------|-------------------------------------------------------------------------------|
-  |**Nome**          |I punti di taglio si possono aggiungere                                        |
+  |**Nome**          |I punti di taglio si possono aggiungere<img width=10000/>                      |
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
   
   |**ID**            |Req-6                                                                          |
   |------------------|-------------------------------------------------------------------------------|
-  |**Nome**          |I punti di taglio si possono resettare                                         |
+  |**Nome**          |I punti di taglio si possono resettare<img width=10000/>                       |
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
   
   |**ID**            |Req-7                                                                          |
   |------------------|-------------------------------------------------------------------------------|
-  |**Nome**          |I punti di taglio si possono eliminare                                         |
+  |**Nome**          |I punti di taglio si possono eliminare<img width=10000/>                       |
   |**Priorità**      |2                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
   
   |**ID**            |Req-8                                                                          |
   |------------------|-------------------------------------------------------------------------------|
-  |**Nome**          |I punti di taglio si possono spostare                                          |
+  |**Nome**          |I punti di taglio si possono spostare<img width=10000/>                        |
   |**Priorità**      |2                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
   
   |**ID**            |Req-9                                                                          |
   |------------------|-------------------------------------------------------------------------------|
-  |**Nome**          |Deve esserci un tasto "Genera"                                                 |
+  |**Nome**          |Deve esserci un tasto "Genera"<img width=10000/>                               |
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
   
   |**ID**            |Req-10                                                                         |
   |------------------|-------------------------------------------------------------------------------|
-  |**Nome**          |Il fiocco di neve viene generato al click del pulsante "Genera"                |
+  |**Nome**          |Il fiocco di neve viene generato al click del pulsante "Genera"<img width=10000/>|
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
   
   |**ID**            |Req-11                                                                         |
   |------------------|-------------------------------------------------------------------------------|
-  |**Nome**          |Il fiocco di neve viene generato in tempo reale                                |
+  |**Nome**          |Il fiocco di neve viene generato in tempo reale<img width=10000/>              |
   |**Priorità**      |2                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |Ogni volta che aggiungo un punto mostra già il risultato finale                |
+  |                  |**Sotto requisiti**                                                            |
+  |001               |Si può avere un bottone per attivare-disattivare il rendering live             |
   
   |**ID**            |Req-12                                                                         |
   |------------------|-------------------------------------------------------------------------------|
-  |**Nome**          |Si può salvare il fiocco                                                       |
+  |**Nome**          |Si può salvare il fiocco<img width=10000/>                                     |
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
   
   |**ID**            |Req-13                                                                         |
   |------------------|-------------------------------------------------------------------------------|
-  |**Nome**          |Il salvataggio può essere fatto come immagine BMP o SVG a scelta               |
+  |**Nome**          |Il salvataggio può essere fatto come immagine BMP o SVG a scelta<img width=10000/>|
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
   
   |**ID**            |Req-14                                                                         |
   |------------------|-------------------------------------------------------------------------------|
-  |**Nome**          |Il salvataggio deve avere dimenzioni scelte dall'utente (500px o 1000px)       |
+  |**Nome**          |Il salvataggio deve avere dimenzioni scelte dall'utente (500px o 1000px)<img width=10000/>|
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
   
   |**ID**            |Req-15                                                                         |
   |------------------|-------------------------------------------------------------------------------|
-  |**Nome**          |Si possono salvare i punti di taglio per modifiche future                      |
+  |**Nome**          |Si possono salvare i punti di taglio per modifiche future<img width=10000/>    |
   |**Priorità**      |2                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |Si possono usare file o database a scelta                                      |
   
   |**ID**            |Req-16                                                                         |
   |------------------|-------------------------------------------------------------------------------|
-  |**Nome**          |Si possono caricare i punti di taglio salvati in precedenza                    |
+  |**Nome**          |Si possono caricare i punti di taglio salvati in precedenza<img width=10000/>  |
   |**Priorità**      |2                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
