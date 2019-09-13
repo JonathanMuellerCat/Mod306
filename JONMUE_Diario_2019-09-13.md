@@ -9,7 +9,7 @@
 |--------------|------------------------------|
 |10:05 - 11:35 |Specifica dei requisiti       |
 |13:15 - 14:45 |Teoria                        |
-|15:00 - 16:20 |Tentata installazione di github desktop  |
+|15:00 - 16:20 |Fuinita la analisi dei requisiti |
 
 ##  Problemi riscontrati e soluzioni adottate
 
