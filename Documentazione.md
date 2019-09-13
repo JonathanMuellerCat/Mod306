@@ -145,7 +145,7 @@ dopo discussione fra formatore e allievo.
   
   |**ID**            |Req-2                                                                          |
   |------------------|-------------------------------------------------------------------------------|
-  |**Nome**          |Deve esserci un'interfaccia grafica                                            |
+  |**Nome**          |Deve esserci un'interfaccia grafica<img width=4000/>                            |
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |Può essere ridimensionata (min 1024x768)                                       |
