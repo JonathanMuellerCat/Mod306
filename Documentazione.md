@@ -113,7 +113,7 @@
 
 ### Analisi del dominio
 
-Questo prodotto è originale, e non esietevano prodotti simili prima. Non occorrono competenze per far funzionare il programma i quanto il metodo di utilizzo è descritto sulla pagina web del prodotto.
+Prima dell'invenzione di questo programma per generare un fiocco di neve si doveva disegnare a mano o ritagliare un foglio di carta. Questo prodotto è originale, e non esietevano prodotti simili prima. Non occorrono competenze per far funzionare il programma i quanto il metodo di utilizzo è descritto sulla pagina web del prodotto.
 
 
 ### Analisi e specifica dei requisiti
@@ -140,7 +140,12 @@ dopo discussione fra formatore e allievo.
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
   |                  |**Sotto requisiti**                                                            |
-  |001               |Se l'applicativo è in Java, necessita un sito web con descrizione e download   |
+  |001               |Se l'applicativo è in Java necessita un sito web con
+  - descrizione con screenshots
+  - download
+  - versione JRE
+  - lista con requisiti di sistema
+  |  
   |002               |Se l'applicativo è in Javascript, necessita un sito web per il suo hosting     |
   
   |**ID**            |Req-2                                                                          |
@@ -148,7 +153,7 @@ dopo discussione fra formatore e allievo.
   |**Nome**          |Deve esserci un'interfaccia grafica                                            |
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
-  |**Note**          |                                                                               |
+  |**Note**          |Può essere ridimensionata (min 1024x768)                                       |
   
   |**ID**            |Req-3                                                                          |
   |------------------|-------------------------------------------------------------------------------|
@@ -240,24 +245,6 @@ dopo discussione fra formatore e allievo.
   |**Priorità**      |2                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
-
-#### Domande
-
-Priorità del sito nel progetto?
-Le dimensioni di salvataggio si applicano solo su raster o anche su vettoriale?
-Ci sono dimesioni massime e minime di salvataggio?
-In che tipo di file vengono salvati i punti di taglio?
-Come carico i punti di taglio salvati in precedenza?
-Quanti poligoni di taglio posso avere?
-Esiste un numero limite di punti?
-Che caratteristiche deve avere il sito?
-Cosa si intende con generazione in tempo reale?
-Il tasto "Genera" salva subito come immagine o visualizza solo l'anteprima?
-Il triangolo può variare di dimensioni?
-Il triangolo deve essere sempre centrato?
-Deve esistere una barra di menu?
-Prima del salvataggio posso scegliere la cartella di destinazione?
-Deve esserci un file di configurazione? Cosa contiene?
 
 
 ### Use case
