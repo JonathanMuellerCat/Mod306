@@ -6,3 +6,4 @@ Generatore di fiocchi di neve
 
 ## Diari
 - [Diario 1](JONMUE_Diario_2019-09-06.md)
+- [Diario 2](JONMUE_Diario_2019-09-13.md)
