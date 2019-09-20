@@ -120,21 +120,6 @@ Prima dell'invenzione di questo programma per generare un fiocco di neve si dove
 
 ### Analisi e specifica dei requisiti
 
-- L’applicativo può essere sia Java che in Javascript.
-  - Se l'applicazione è Java, va creato un sito web con la descrizione e il download dell’applicazione, con descrizione di tutti i requisiti per il funzionamento.
-  - Se l'applicazione è in Javascript va creato un sito web per il suo hosting.
-- I punti di “taglio” vengono inseriti cliccando col mouse.
-- I punti si devono poter aggiungere e resettare completamente.
-  - Bonus: rimozione, spostamento di punti
-- Il “fiocco di neve” viene generato quando l'utente clicca il tasto “Genera”
-  - Bonus: la generazione avviene in tempo reale con una animazione
-- Si può salvare il fiocco di neve come immagine raster in formato PNG e vettoriale in formato SVG (l'utente decide le dimensioni).
-- L’applicativo deve permettere di salvare i punti di taglio per poter permettere modifiche
-  - rigenerazione future.
-- In base al tempo a disposizione, nuovi requisiti possono essere inseriti nel progetto
-dopo discussione fra formatore e allievo.
-
-
   |**ID**            |Req-1                                                                          |
   |------------------|-------------------------------------------------------------------------------|
   |**Nome**          |L'applicativo deve essere in Java o in Javascript<img width=10000/>            |
