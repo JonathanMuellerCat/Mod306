@@ -8,6 +8,8 @@
 
 2. [Analisi](#analisi)
 
+   - [Analisi del dominio](#analisi-del-dominio)
+   
    - [Analisi e specifica dei requisiti](#analisi-e-specifica-dei-requisiti)
 
    - [Use case](#use-case)
