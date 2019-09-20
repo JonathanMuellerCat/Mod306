@@ -1,6 +1,6 @@
-# [Generatore di fiocchi di neve] | Diario di lavoro
-##### [Jonathan Mueller]
-### [SAMT], [13.09.2019]
+# Generatore di fiocchi di neve | Diario di lavoro
+##### Jonathan Mueller
+### SAMT, 13.09.2019
 
 ## Lavori svolti
 
