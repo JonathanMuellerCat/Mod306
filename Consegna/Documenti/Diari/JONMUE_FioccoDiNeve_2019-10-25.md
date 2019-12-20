@@ -7,7 +7,7 @@
 
 |Orario        |Lavoro svolto                 |
 |--------------|------------------------------|
-|10:05 - 16:20 |Progettazione: cambiata struttura da un JFrame a diversi JPanel |
+|10:05 - 16:20 |Cambiata struttura da un JFrame a diversi JPanel |
 
 ##  Problemi riscontrati e soluzioni adottate
 
@@ -19,4 +19,4 @@ In anticipo
 
 ## Programma di massima per la prossima giornata di lavoro
 
-Continuare la progettazione
+Continuare la implementazione
