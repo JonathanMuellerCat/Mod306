@@ -7,7 +7,7 @@
 
 |Orario        |Lavoro svolto                 |
 |--------------|------------------------------|
-|10:05 - 16:20 |Progettazione: implementata la trasformazione da area a poligono usando pathIterator |
+|10:05 - 16:20 |Taglio triangolo e trasformazione da area a poligono usando pathIterator |
 
 ##  Problemi riscontrati e soluzioni adottate
 
@@ -19,4 +19,4 @@ In anticipo
 
 ## Programma di massima per la prossima giornata di lavoro
 
-Continuare la progettazione
+Continuare la implementazione
