@@ -8,25 +8,23 @@
 
 2. [Analisi](#analisi)
 
-   - [Analisi del dominio](#analisi-del-dominio)
-   
    - [Analisi e specifica dei requisiti](#analisi-e-specifica-dei-requisiti)
 
    - [Use case](#use-case)
 
    - [Pianificazione](#pianificazione)
-  
+
    - [Analisi dei mezzi](#analisi-dei-mezzi)
-  
+
      - [Hardware](#hardware)
-  
+
      - [Software](#software)
 
 3. [Progettazione](#progettazione)
 
-   - [Design dell’architettura del sistema](#design-dell’architettura-del-sistema)
+   - [Design delle interfacce](#design-delle-interfacce)
 
-   - [Design dei dati e database](#design-dei-dati-e-database)
+   - [Design procedurale](#design-procedurale)
 
 4. [Implementazione](#implementazione)
 
@@ -35,8 +33,6 @@
    - [Protocollo di test](#protocollo-di-test)
 
    - [Risultati test](#risultati-test)
-
-   - [Mancanze/limitazioni conosciute](#mancanze/limitazioni-conosciute)
 
 6. [Consuntivo](#consuntivo)
 
@@ -56,15 +52,15 @@
 ### Informazioni sul progetto
 
   Scuola e classe: SAMT I3AC
-  
+
   Modulo: 306
-  
+
   Alievo: Jonathan Mueller
-  
+
   Docenti: Luca Muggiasca e Geo Peduzzi
-  
+
   Durata progetto: 6.9.2019 - 20.12.2019
-  
+
 
 ### Abstract
 
@@ -120,6 +116,21 @@ Prima dell'invenzione di questo programma per generare un fiocco di neve si dove
 
 ### Analisi e specifica dei requisiti
 
+- L’applicativo può essere sia Java che in Javascript.
+  - Se l'applicazione è Java, va creato un sito web con la descrizione e il download dell’applicazione, con descrizione di tutti i requisiti per il funzionamento.
+  - Se l'applicazione è in Javascript va creato un sito web per il suo hosting.
+- I punti di “taglio” vengono inseriti cliccando col mouse.
+- I punti si devono poter aggiungere e resettare completamente.
+  - Bonus: rimozione, spostamento di punti
+- Il “fiocco di neve” viene generato quando l'utente clicca il tasto “Genera”
+  - Bonus: la generazione avviene in tempo reale con una animazione
+- Si può salvare il fiocco di neve come immagine raster in formato PNG e vettoriale in formato SVG (l'utente decide le dimensioni).
+- L’applicativo deve permettere di salvare i punti di taglio per poter permettere modifiche
+  - rigenerazione future.
+- In base al tempo a disposizione, nuovi requisiti possono essere inseriti nel progetto
+dopo discussione fra formatore e allievo.
+
+
   |**ID**            |Req-1                                                                          |
   |------------------|-------------------------------------------------------------------------------|
   |**Nome**          |L'applicativo deve essere in Java o in Javascript<img width=10000/>            |
@@ -129,70 +140,70 @@ Prima dell'invenzione di questo programma per generare un fiocco di neve si dove
   |                  |**Sotto requisiti**                                                            |
   |001               |Se l'applicativo è in Java necessita un sito web con descrizione con screenshots, download del file JAR, versione JRE e lista con requisiti di sistema |
   |002               |Se l'applicativo è in Javascript, necessita un sito web per il suo hosting con browser supportati (Explorer 11, Firefox 6, Chrome 76) e la dimensione minima |
-  
+
   |**ID**            |Req-2                                                                          |
   |------------------|-------------------------------------------------------------------------------|
   |**Nome**          |Deve esserci un'interfaccia grafica<img width=10000/>                          |
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |Può essere ridimensionata (min 1024x768)                                       |
-  
+
   |**ID**            |Req-3                                                                          |
   |------------------|-------------------------------------------------------------------------------|
   |**Nome**          |L'area di lavoro deve essere un triangolo<img width=10000/>                    |
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |Il triangolo è sempre il 50% della finestra e centrato                         |
-  
+
   |**ID**            |Req-4                                                                          |
   |------------------|-------------------------------------------------------------------------------|
   |**Nome**          |I punti di taglio si posizionano con il click del mouse<img width=10000/>      |
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |Per commutare tra posizionamento e altre funzione si possono usare pulsanti    |
-  
+
   |**ID**            |Req-5                                                                          |
   |------------------|-------------------------------------------------------------------------------|
   |**Nome**          |I punti di taglio si possono aggiungere<img width=10000/>                      |
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
-  
+
   |**ID**            |Req-6                                                                          |
   |------------------|-------------------------------------------------------------------------------|
   |**Nome**          |I punti di taglio si possono resettare<img width=10000/>                       |
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
-  
+
   |**ID**            |Req-7                                                                          |
   |------------------|-------------------------------------------------------------------------------|
   |**Nome**          |I punti di taglio si possono eliminare<img width=10000/>                       |
   |**Priorità**      |2                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
-  
+
   |**ID**            |Req-8                                                                          |
   |------------------|-------------------------------------------------------------------------------|
   |**Nome**          |I punti di taglio si possono spostare<img width=10000/>                        |
   |**Priorità**      |2                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
-  
+
   |**ID**            |Req-9                                                                          |
   |------------------|-------------------------------------------------------------------------------|
   |**Nome**          |Deve esserci un tasto "Genera"<img width=10000/>                               |
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
-  
+
   |**ID**            |Req-10                                                                         |
   |------------------|-------------------------------------------------------------------------------|
   |**Nome**          |Il fiocco di neve viene generato al click del pulsante "Genera"<img width=10000/>|
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
-  
+
   |**ID**            |Req-11                                                                         |
   |------------------|-------------------------------------------------------------------------------|
   |**Nome**          |Il fiocco di neve viene generato in tempo reale<img width=10000/>              |
@@ -201,35 +212,35 @@ Prima dell'invenzione di questo programma per generare un fiocco di neve si dove
   |**Note**          |Ogni volta che aggiungo un punto mostra già il risultato finale                |
   |                  |**Sotto requisiti**                                                            |
   |001               |Si può avere un bottone per attivare-disattivare il rendering live             |
-  
+
   |**ID**            |Req-12                                                                         |
   |------------------|-------------------------------------------------------------------------------|
   |**Nome**          |Si può salvare il fiocco<img width=10000/>                                     |
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
-  
+
   |**ID**            |Req-13                                                                         |
   |------------------|-------------------------------------------------------------------------------|
-  |**Nome**          |Il salvataggio può essere fatto come immagine BMP o SVG a scelta<img width=10000/>|
+  |**Nome**          |Il salvataggio può essere fatto come immagine PNG o SVG a scelta<img width=10000/>|
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
-  
+
   |**ID**            |Req-14                                                                         |
   |------------------|-------------------------------------------------------------------------------|
   |**Nome**          |Il salvataggio deve avere dimenzioni scelte dall'utente (500px o 1000px)<img width=10000/>|
   |**Priorità**      |1                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |                                                                               |
-  
+
   |**ID**            |Req-15                                                                         |
   |------------------|-------------------------------------------------------------------------------|
   |**Nome**          |Si possono salvare i punti di taglio per modifiche future<img width=10000/>    |
   |**Priorità**      |2                                                                              |
   |**Versione**      |1.0                                                                            |
   |**Note**          |Si possono usare file o database a scelta                                      |
-  
+
   |**ID**            |Req-16                                                                         |
   |------------------|-------------------------------------------------------------------------------|
   |**Nome**          |Si possono caricare i punti di taglio salvati in precedenza<img width=10000/>  |
@@ -248,19 +259,9 @@ Prima dell'invenzione di questo programma per generare un fiocco di neve si dove
 
 ### Pianificazione
 
-Prima di stabilire una pianificazione bisogna avere almeno una vaga idea
-del modello di sviluppo che si intende adottare. In questa sezione
-bisognerà inserire il modello concettuale di sviluppo che si seguirà
-durante il progetto. Gli elementi di riferimento per una buona
-pianificazione derivano da una scomposizione top-down della problematica
-del progetto.
+![Gantt tabella](GanttTabella.png)
 
-La pianificazione può essere rappresentata mediante un diagramma di
-Gantt.
-
-Se si usano altri metodi di pianificazione (es scrum), dovranno apparire
-in questo capitolo.
-
+![Gantt grafico](GanttGrafico.png)
 
 ### Analisi dei mezzi
 
@@ -273,8 +274,6 @@ Portatile MacBook Pro personale
 
 #### Software ####
 
-Pacchetto WAMP (Apache, MySQL, PHP, ecc...)
-
 Java (JDK 11.1)
 
 GitHub
@@ -282,80 +281,40 @@ GitHub
 
 ## Progettazione
 
-Questo capitolo descrive esaustivamente come deve essere realizzato il
-prodotto fin nei suoi dettagli. Una buona progettazione permette
-all’esecutore di evitare fraintendimenti e imprecisioni
-nell’implementazione del prodotto.
-
-### Design dell’architettura del sistema
-
-Descrive:
-
--   La struttura del programma/sistema lo schema di rete...
-
--   Gli oggetti/moduli/componenti che lo compongono.
-
--   I flussi di informazione in ingresso ed in uscita e le
-    relative elaborazioni. Può utilizzare *diagrammi di flusso dei
-    dati* (DFD).
-
--   Eventuale sitemap
-
-### Design dei dati e database
-
-Descrizione delle strutture di dati utilizzate dal programma in base
-agli attributi e le relazioni degli oggetti in uso.
-
-### Schema E-R, schema logico e descrizione.
-
-Se il diagramma E-R viene modificato, sulla doc dovrà apparire l’ultima
-versione, mentre le vecchie saranno sui diari.
-
 ### Design delle interfacce
 
-Descrizione delle interfacce interne ed esterne del sistema e
-dell’interfaccia utente. La progettazione delle interfacce è basata
-sulle informazioni ricavate durante la fase di analisi e realizzata
-tramite mockups.
+![Interfaccia](Interfaccia.png)
 
 ### Design procedurale
 
-Descrive i concetti dettagliati dell’architettura/sviluppo utilizzando
-ad esempio:
-
--   Diagrammi di flusso e Nassi.
-
--   Tabelle.
-
--   Classi e metodi.
-
--   Tabelle di routing
-
--   Diritti di accesso a condivisioni …
-
-Questi documenti permetteranno di rappresentare i dettagli procedurali
-per la realizzazione del prodotto.
+![UML solo classi](UMLNoMembri.png)
 
 ## Implementazione
 
-In questo capitolo dovrà essere mostrato come è stato realizzato il
-lavoro. Questa parte può differenziarsi dalla progettazione in quanto il
-risultato ottenuto non per forza può essere come era stato progettato.
+![UML completo](BigUML.png)
 
-Sulla base di queste informazioni il lavoro svolto dovrà essere
-riproducibile.
+### Metodi complicati
 
-In questa parte è richiesto l’inserimento di codice sorgente/print
-screen di maschere solamente per quei passaggi particolarmente
-significativi e/o critici.
+Questi sono stati i metodi più complicati e che mi hanno dato più problemi:
 
-Inoltre dovranno essere descritte eventuali varianti di soluzione o
-scelte di prodotti con motivazione delle scelte.
+#### Conversione da Area a BetterPolygon
 
-Non deve apparire nessuna forma di guida d’uso di librerie o di
-componenti utilizzati. Eventualmente questa va allegata.
+![UML completo](ConversioneAreaPoligono.png)
 
-Per eventuali dettagli si possono inserire riferimenti ai diari.
+Arrivato al punto della sottrazione dei poligoni al triangolo mi sono ritrovato con un area quando mi serviva un poligono per fare tutte le operazioni successive. Per convertire ho usato il PathIterator, che passa per tutti i punti dell'area. Questi punti possono avere diversi tipi:
+0 Inizio di un poligono
+1 Punto di mezzo
+4 Fine del poligono
+Sapendo questo ho aggiunto i punti ad una array in modo da avere tutti i poligoni salvati come uno solo. Alla fine ho creato un poligono con questi punti.
+
+#### Ridimenzionamento, specchiamento e rotazione dei poligoni
+
+![UML completo](AffineTransform.png)
+
+Inizialmente avevo fatto queste tre operazioni a mano, modificando i poligoni punto per punto, ma questa operazione era molto pesante e causava lag quando c'erano molti punti.
+Quindi ho cercato un altro modo e ho trovato AffineTransform.
+Questa classe permette di fare molte operazioni su shapes tra cui quelle elencate sopra, con una assenza quasi totale di lag.
+Il problema è che questa classe è estremamente complicata da usare e ci ho messo un po' a capire come usarla.
 
 ## Test
 
@@ -367,94 +326,134 @@ fungono da garanzia di qualità del prodotto. Ogni test deve essere
 ripetibile alle stesse condizioni.
 
 
-|Test Case      | TC-001                               |
-|---------------|--------------------------------------|
-|**Nome**       |Import a card, but not shown with the GUI |
-|**Riferimento**|REQ-012                               |
-|**Descrizione**|Import a card with KIC, KID and KIK keys with no obfuscation, but not shown with the GUI |
-|**Prerequisiti**|Store on local PC: Profile\_1.2.001.xml (appendix n\_n) and Cards\_1.2.001.txt (appendix n\_n) |
-|**Procedura**     | - Go to “Cards manager” menu, in main page click “Import Profiles” link, Select the “1.2.001.xml” file, Import the Profile - Go to “Cards manager” menu, in main page click “Import Cards” link, Select the “1.2.001.txt” file, Delete the cards, Select the “1.2.001.txt” file, Import the cards |
-|**Risultati attesi** |Keys visible in the DB (OtaCardKey) but not visible in the GUI (Card details) |
+|Test Case       | TC-001                               |
+|----------------|--------------------------------------|
+|**Nome**        |I punti di taglio si posizionano con il click del mouse |
+|**Riferimento** |REQ-04                               |
+|**Descrizione** |I punti di taglio si posizionano con il click sinistro del mouse sull'area di lavoro |
+|**Prerequisiti**|Applicazione gia avviata sull'editor  |
+|**Procedura**   | - Cliccare nell'area di lavoro con il tasto destro |
+|**Risultati attesi** | Viene generato un punto sull'area di lavoro |
+
+|Test Case       | TC-002                               |
+|----------------|--------------------------------------|
+|**Nome**        |Mettere almeno 3 punti e cliccare il punto verde crea un poligono |
+|**Riferimento** |REQ-04                               |
+|**Descrizione** |Quando ho posizionato almeno 3 punti e clicco sul punto verde si crea un poligono |
+|**Prerequisiti**|Applicazione gia avviata sull'editor  |
+|**Procedura**   | - Cliccare nell'area di lavoro con il tasto destro per posizionare più punti - Una volta posizionati almeno 3 punti cliccare il punto verde |
+|**Risultati attesi** | Viene generato un poligono sull'area di lavoro |
+
+|Test Case       | TC-003                               |
+|----------------|--------------------------------------|
+|**Nome**        |I punti di taglio si posizionano resettare |
+|**Riferimento** |REQ-06                               |
+|**Descrizione** |I punti di taglio si possono resettare cliccando il tasto "reset" |
+|**Prerequisiti**|Applicazione gia avviata sull'editor e punti posizionati  |
+|**Procedura**   | - Cliccare il tasto "reset" |
+|**Risultati attesi** | Tutti i punti spariscono |
+
+|Test Case       | TC-004                               |
+|----------------|--------------------------------------|
+|**Nome**        |I punti di taglio si possono eliminare |
+|**Riferimento** |REQ-07                               |
+|**Descrizione** |I punti di taglio si possono eliminare cliccando con il tasto destro |
+|**Prerequisiti**|Applicazione gia avviata sull'editor e punti posizionati  |
+|**Procedura**   | - Cliccare con il tasto destro su un punto |
+|**Risultati attesi** | Il punto cliccato viene eliminato |
+
+|Test Case       | TC-005                               |
+|----------------|--------------------------------------|
+|**Nome**        |I punti di taglio si possono spostare |
+|**Riferimento** |REQ-08                               |
+|**Descrizione** |I punti di taglio si possono spostare trascinandoli con il mouse |
+|**Prerequisiti**|Applicazione gia avviata sull'editor e punti posizionati  |
+|**Procedura**   | - Trascinare il punto con il mouse |
+|**Risultati attesi** | Il punto segue il mouse |
+
+|Test Case       | TC-006                               |
+|----------------|--------------------------------------|
+|**Nome**        |Il fiocco di neve viene generato al click del pulsante "Genera"  |
+|**Riferimento** |REQ-08                               |
+|**Descrizione** |Quando clicco il tasto "Genera" il triangolo viene tagliato e il fiocco viene generato |
+|**Prerequisiti**|Applicazione gia avviata sull'editor e punti posizionati  |
+|**Procedura**   | - Cliccare il tasto genera|
+|**Risultati attesi** | Il triangolo tagliato viene moltiplicato 12 volte in modo da formare il fiocco |
+
+|Test Case       | TC-007                               |
+|----------------|--------------------------------------|
+|**Nome**        |Il fiocco di neve viene generato in tempo reale |
+|**Riferimento** |REQ-09                               |
+|**Descrizione** |Quando posiziono un nuovo punto la live viene aggiornata. Si può anche disattivare la generazione in tempo reale |
+|**Prerequisiti**|Applicazione gia avviata sull'editor  |
+|**Procedura**   | - Posiziono dei punti sull'area di lavoro - Clicco la checkbox per disattivare la live |
+|**Risultati attesi** | Il fiocco in live viene aggiornato, e scompare se la checkbox viene deselezionata |
+
+|Test Case       | TC-008                               |
+|----------------|--------------------------------------|
+|**Nome**        |Si può salvare il fiocco come immagine PNG o SVG a scelta con dimenzioni scelte dall'utente (500px o 1000px) |
+|**Riferimento** |REQ-12,REQ-13,REQ-14                 |
+|**Descrizione** |Cliccando il tasto "Esporta" si può salvare il fiocco come immagine |
+|**Prerequisiti**|Applicazione gia avviata sull'editor e poligoni posizionati  |
+|**Procedura**   | - Clicco il tasto "Esporta" - Nel file chooser seleziono un file ".png" o ".svg" in cui salvare - Clicco "Save" - Nel menu seleziono i dettagli del salvataggio - Clicco "Salva"|
+|**Risultati attesi** | Nel file selezionato verrà salvata l'immagine. Se il file non esiste viene creato |
+
+|Test Case       | TC-009                               |
+|----------------|--------------------------------------|
+|**Nome**        |Si possono salvare i punti di taglio per modifiche future |
+|**Riferimento** |REQ-15                               |
+|**Descrizione** |Cliccando il tasto "Salva" si possono salvare i punti in un file  |
+|**Prerequisiti**|Applicazione gia avviata sull'editor e punti posizionati  |
+|**Procedura**   | - Clicco il tasto "Salva" - Nel file chooser seleziono un file ".points" in cui salvare - Clicco "Save"|
+|**Risultati attesi** | Nel file selezionato verranno salvati i punti. Se il file non esiste viene creato |
+
+|Test Case       | TC-010                               |
+|----------------|--------------------------------------|
+|**Nome**        |Si possono caricare i punti di taglio salvati in precedenza |
+|**Riferimento** |REQ-16                               |
+|**Descrizione** |Cliccando il tasto "Carica" si possono caricare i punti da un file  |
+|**Prerequisiti**|Applicazione gia avviata sull'editor e file di punti già creato |
+|**Procedura**   | - Clicco il tasto "Carica" - Nel file chooser seleziono un file ".points" da cui caricare - Clicco "Open"|
+|**Risultati attesi** | I punti e i poligoni vengono creati sul piano di lavoro |
 
 
 ### Risultati test
 
-Tabella riassuntiva in cui si inseriscono i test riusciti e non del
-prodotto finale. Se un test non riesce e viene corretto l’errore, questo
-dovrà risultare nel documento finale come riuscito (la procedura della
-correzione apparirà nel diario), altrimenti dovrà essere descritto
-l’errore con eventuali ipotesi di correzione.
-
-### Mancanze/limitazioni conosciute
-
-Descrizione con motivazione di eventuali elementi mancanti o non
-completamente implementati, al di fuori dei test case. Non devono essere
-riportati gli errori e i problemi riscontrati e poi risolti durante il
-progetto.
+|Test Case       | Risultato                       |
+|----------------|---------------------------------|
+|TC-001          | Il punto viene posizionato      |
+|TC-002          | Il poligono viene generato      |
+|TC-003          | Tutti i punti vengono cancellati|
+|TC-004          | Il punto viene eliminato. Certe volte questo non funziona, e la hitbox dei punti è sbagliata. Se questo succede si può chiudere l'editor e aprirne uno nuovo, ma non sempre questo risolve il problema |
+|TC-005          | Il punto segue il mouse. Come nel TC-004 succede lo stesso problema, e lo si può provare a risolvere nello stesso modo |
+|TC-006          | Il fiocco di neve viene generato|
+|TC-007          | Il fiocco di neve viene generato in tempo reale. Se si disattiva la preview scompare |
+|TC-008          | Le immagini vengono salvate, e nel caso il file non esiste viene creato |
+|TC-009          | I punti vengono salvati solo se seleziono un file ".points",  e nel caso il file non esiste viene creato |
 
 ## Consuntivo
 
-Consuntivo del tempo di lavoro effettivo e considerazioni riguardo le
-differenze rispetto alla pianificazione (cap 1.7) (ad esempio Gannt
-consuntivo).
+
 
 ## Conclusioni
 
-Quali sono le implicazioni della mia soluzione? Che impatto avrà?
-Cambierà il mondo? È un successo importante? È solo un’aggiunta
-marginale o è semplicemente servita per scoprire che questo percorso è
-stato una perdita di tempo? I risultati ottenuti sono generali,
-facilmente generalizzabili o sono specifici di un caso particolare? ecc
+L'utente potrà finalmente creare un fiocco di neve e non dovrà più farlo a mano.
 
 ### Sviluppi futuri
-  Migliorie o estensioni che possono essere sviluppate sul prodotto.
+  Il programma è completo e, almeno che il cliente non chiede di aggiungere qualcosa di nuovo, non ci saranno sviluppi futuri.
 
 ### Considerazioni personali
-  Cosa ho imparato in questo progetto? ecc
+  Da questo progetto ho migliorato la mia capacità di programmatore e ho imparato ad usare nuove class come AffineTransform.
 
 ## Bibliografia
 
-### Bibliografia per articoli di riviste
-1.  Cognome e nome (o iniziali) dell’autore o degli autori, o nome
-    dell’organizzazione,
-
-2.  Titolo dell’articolo (tra virgolette),
-
-3.  Titolo della rivista (in italico),
-
-4.  Anno e numero
-
-5.  Pagina iniziale dell’articolo,
-
-### Bibliografia per libri
-
-
-1.  Cognome e nome (o iniziali) dell’autore o degli autori, o nome
-    dell’organizzazione,
-
-2.  Titolo del libro (in italico),
-
-3.  ev. Numero di edizione,
-
-4.  Nome dell’editore,
-
-5.  Anno di pubblicazione,
-
-6.  ISBN.
-
 ### Sitografia
 
-1.  URL del sito (se troppo lungo solo dominio, evt completo nel
-    diario),
+-   https://github.com, *github*, 20-12-2019.
 
-2.  Eventuale titolo della pagina (in italico),
+-   https://stackoverflow.com, *stackoverflow*, 20-12-2019.
 
-3.  Data di consultazione (GG-MM-AAAA).
-
-**Esempio:**
-
--   http://standards.ieee.org/guides/style/section7.html, *IEEE
-    Standards Style Manual*, 07-06-2008.
+-   https://docs.oracle.com/javase/7/docs/api/, *javadoc*, 20-12-2019
 
 ## Allegati
 
@@ -467,12 +466,4 @@ Elenco degli allegati, esempio:
 -   Istruzioni di installazione del prodotto (con credenziali
     di accesso) e/o di eventuali prodotti terzi
 
--   Documentazione di prodotti di terzi
-
--   Eventuali guide utente / Manuali di utilizzo
-
--   Mandato e/o Qdc
-
 -   Prodotto
-
--   …
