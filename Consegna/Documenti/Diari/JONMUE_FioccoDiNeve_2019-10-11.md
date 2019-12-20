@@ -7,7 +7,7 @@
 
 |Orario        |Lavoro svolto                 |
 |--------------|------------------------------|
-|10:05 - 16:20 |Progettazione |
+|10:05 - 16:20 | Posizionamento e ridimensionamento punti e creazione poligoni |
 
 ##  Problemi riscontrati e soluzioni adottate
 
@@ -19,4 +19,4 @@ In anticipo
 
 ## Programma di massima per la prossima giornata di lavoro
 
-Continuare la progettazione
+Continuare la implementazione
