@@ -7,7 +7,7 @@
 
 |Orario        |Lavoro svolto                 |
 |--------------|------------------------------|
-|10:50 - 16:20 | Creato il menu principale e la live |
+|13:15 - 16:20 | Creato il menu principale e la live |
 
 ##  Problemi riscontrati e soluzioni adottate
 
