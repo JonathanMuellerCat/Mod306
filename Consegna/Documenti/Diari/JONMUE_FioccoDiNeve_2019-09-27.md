@@ -8,7 +8,7 @@
 
 |Orario        |Lavoro svolto                 |
 |--------------|------------------------------|
-|10:05 - 16:20 |Progettazione |
+|10:05 - 16:20 |Creata l'interfaccia |
 
 ##  Problemi riscontrati e soluzioni adottate
 
@@ -20,4 +20,4 @@ In orario
 
 ## Programma di massima per la prossima giornata di lavoro
 
-Continuare la progettazione
+Continuare la implementazione
