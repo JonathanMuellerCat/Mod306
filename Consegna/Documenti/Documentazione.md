@@ -259,9 +259,9 @@ dopo discussione fra formatore e allievo.
 
 ### Pianificazione
 
-![Gantt tabella](GanttTabella.png)
+![Gantt tabella](Images/GanttTabella.png)
 
-![Gantt grafico](GanttGrafico.png)
+![Gantt grafico](Images/GanttGrafico.png)
 
 ### Analisi dei mezzi
 
@@ -283,15 +283,15 @@ GitHub
 
 ### Design delle interfacce
 
-![Interfaccia](Interfaccia.png)
+![Interfaccia](Images/Interfaccia.png)
 
 ### Design procedurale
 
-![UML solo classi](UMLNoMembri.png)
+![UML solo classi](Images/UMLNoMembri.png)
 
 ## Implementazione
 
-![UML completo](BigUML.png)
+![UML completo](Images/BigUML.png)
 
 ### Metodi complicati
 
@@ -299,7 +299,7 @@ Questi sono stati i metodi più complicati e che mi hanno dato più problemi:
 
 #### Conversione da Area a BetterPolygon
 
-![UML completo](ConversioneAreaPoligono.png)
+![UML completo](Images/ConversioneAreaPoligono.png)
 
 Arrivato al punto della sottrazione dei poligoni al triangolo mi sono ritrovato con un area quando mi serviva un poligono per fare tutte le operazioni successive. Per convertire ho usato il PathIterator, che passa per tutti i punti dell'area. Questi punti possono avere diversi tipi:
 0 Inizio di un poligono
@@ -309,7 +309,7 @@ Sapendo questo ho aggiunto i punti ad una array in modo da avere tutti i poligon
 
 #### Ridimenzionamento, specchiamento e rotazione dei poligoni
 
-![UML completo](AffineTransform.png)
+![UML completo](Images/AffineTransform.png)
 
 Inizialmente avevo fatto queste tre operazioni a mano, modificando i poligoni punto per punto, ma questa operazione era molto pesante e causava lag quando c'erano molti punti.
 Quindi ho cercato un altro modo e ho trovato AffineTransform.
